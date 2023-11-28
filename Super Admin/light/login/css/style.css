@@ -1,0 +1,65 @@
+:root {
+  --switch-bg: #7d8fa9;
+  --switch-circle-bg: #3b4758;
+  --icon-sun: #fff;
+  --icon-moon: #fff;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+#theme-switcher {
+  background-color: var(--switch-bg);
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  gap: 1.33rem;
+  cursor: pointer;
+}
+.container {
+  position: absolute;
+  right: 0;
+}
+
+.bg-img {
+  background-image: url("../img/signin-1.png");
+  min-height: 93vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+div .logo h2 {
+  font-weight: 700;
+}
+
+.header {
+  margin-left: 2.5rem;
+}
+
+.signin-form {
+  height: 75vh;
+}
+
+.form {
+  margin-top: 2.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+div .form h2 {
+  font-size: 24;
+  font-weight: 700;
+}
+
+.form-label {
+  font-size: 12;
+  font-weight: 400;
+}
